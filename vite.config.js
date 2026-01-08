@@ -23,7 +23,7 @@ export default defineConfig({
       ],
     }),
   ],
-  base:'/',
+  base:'/SKATER',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
